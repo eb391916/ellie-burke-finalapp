@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Square Grid Generator</h1>
+
+            <div class="box">
+                <h3>What is This?</h3>
+                <p>This is a GUI (graphical user interface) that allows you to customize the size, curve, stroke, and color of a grid of six squares. You can customize this grid to create a canvas you like, and then press the down arrow to download an .svg version of the canvas.</p>
+            </div>
+
+
+            <div class="box">
+                <h3>How Do I Use It?</h3>
+                <ul>
+                    <li><strong>Size:</strong> changes the dimensions of the squares</li>
+                    <li><strong>Curves:</strong> changes how curved or angles the corners are</li>
+                    <li><strong>Stroke Weight:</strong> changes the weight of the outline</li>
+                    <li><strong>Color:</strong> changes the fill color of the squares</li>
+                    <li><strong>Double Click:</strong> to change the background color</li>
+                    <li><strong>Press Down Arrow:</strong> to download .svg of canvas</li>
+                </ul>
+                <p>*To hide this description, deselct "showDescription" check box.</p>
+            </div>
+        </div>
+
+        <script src="sketch.js"></script>
+        <script src="p5.svg.js"></script> 
+    </body>
+</html>
